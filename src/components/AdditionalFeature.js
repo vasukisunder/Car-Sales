@@ -14,9 +14,7 @@ console.log(props.feature);
   );
 };
 
-const mapStateToProps = state => {
-  return;
-}
 
-export default connect(mapStateToProps, { addFeature })(AdditionalFeature);
+
+export default connect(null, { addFeature })(AdditionalFeature);
 
